@@ -61,7 +61,7 @@ public class DlgQuestionCtrl extends CFSwingCtrl {
             }
         });
         tmrTimer.start();
-        CCSwing.setFormatterFactory(txtAnswer, CCFormat.pack("", "*", question.getAnswer().length()), '*', "");
+        CCSwing.setFormatterFactory(txtAnswer, CCFormat.minLength("", "*", question.getAnswer().length()), '*', "");
     }
 
     @Override

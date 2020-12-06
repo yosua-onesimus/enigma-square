@@ -19,6 +19,7 @@ public class PnlEnigmaSquareCtrl extends CFSwingCtrl {
 //<editor-fold defaultstate="collapsed" desc=" private ">
     private EnigmaSquareBo enigmaSquareBo;
     private CCImage imgBoard;
+    private JLabel xHallOfFame;
     private CCTable tblPlayer;
     private CCImage imgPlayerIcon;
     private JLabel lblPlayerName;
@@ -97,6 +98,7 @@ public class PnlEnigmaSquareCtrl extends CFSwingCtrl {
         //
         tblPlayer = CCSwing.newCCTable(getContainer(), "tblPlayer", Player.class);
         tblPlayer.setHeadersVisible(false);
+        xHallOfFame.repaint();
         //
         _doUpdateComponentNavi(true);
     }

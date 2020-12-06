@@ -14,7 +14,7 @@ public class FrmEnigmaSquare extends javax.swing.JFrame {
         aContent = new cococare.swing.component.CCImage();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Enigma Square ~ Eric's Snake And Ladder 2.0.160808");
+        setTitle("Enigma Square ~ Eric's Snake And Ladder 2.0.201206");
         setMinimumSize(new java.awt.Dimension(800, 600));
         setResizable(false);
 
